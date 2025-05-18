@@ -1,0 +1,1 @@
+faire un mod qui repère les processus au cours du démarrage qui prennent très longtemps et qui n'aboutissent en rien pour qu'au prochain démarrage cela n'arrive pas. Il faut penser à un moyen de retester la pertinence de la déactivation de certains process periodiquement. 
