@@ -1,0 +1,5 @@
+{
+  "commands.lootrTweaker.reload.success": "LootrTweaker configuration reloaded",
+  "commands.lootrTweaker.analyzeWeights.success": "Loot table weights analyzed and saved to logs",
+  "commands.lootrTweaker.analyzeWeights.error": "Error analyzing loot tables: %s"
+}
