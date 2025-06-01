@@ -1,0 +1,21 @@
+faire un mod qui repère les processus au cours du démarrage qui prennent très longtemps et qui n'aboutissent en rien pour qu'au prochain démarrage cela n'arrive pas. Il faut penser à un moyen de retester la pertinence de la déactivation de certains process periodiquement. 
+
+
+Raph — 00:01
+créer un mod qui check les blocks thin air surtout les temporaires et suite à un changement d'état du block pour attribuer la nouvelle couleur correcte. 
+Plutot que de surveiller périodiquement, faire lors de la casse du block. Ajouter une commande pour le faire quand on veut
+ajouter craft des empty maps de lvl supérieur dans la cartographie table
+Raph — 00:17
+créer un mod permettant de craft des empty maps de niveau 1, 2 et 3. avec la possibilté de les effacer en passant par un chaudron. Objectif : compatibilité avec les map atlases
+faire que les items dans la cartographie table soient persistants. Modifier le craft du map atlas.
+faire qu'on puisse craft des maps avec de la black dye et 8 papier depuis la cartographie table.
+Changer le coût en papier de l'amélioration des cartes, 8 papier + une carte (empty ou filled) dans la cartographie table
+permettre la conversion d'une carte de plus haut niveau en autant de cartes du niveau inférieur que cohérent
+idem pour les atlas 
+Raph — 00:31
+ajouter compat avec le cartesian locator pour que l'atlas puisse prendre des cartes vierges simple comme consommable même si sa scale est différente (maplvl diff de 0)
+Raph — 00:39
+créer un mod ajoutant un gamemode qui ressemble au créa mais sans le give d'items et des capacitées amoindries. idem pour le spectateur qui ne pourra plus passer au travers des murs. Ce mod modifiera le fonctionnement des gamemodes les rendant configurables
+Raph — 01:04
+corriger les slots à gauche trinket/curio pour qu'ils fonctioinnent. Faire que certains items comme la wrench ne puisse aller que dans le slot prévu à cet effet. ajouter une fonctionnalité de "lock" qui empêche le changement de ces items (si lock un slot vide il ne pourra pas être rempli)
+doubler la durée des saisons

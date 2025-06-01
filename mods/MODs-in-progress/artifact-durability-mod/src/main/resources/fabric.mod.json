@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "artifact_durability",
+  "version": "${version}",
+  "name": "Artifact Durability",
+  "description": "Adds simulated durability to artifacts with configurable settings",
+  "authors": [
+    "Kraphtea"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kraphtea",
+    "sources": "https://github.com/kraphtea"
+  },
+  "license": "MIT",
+  "icon": "assets/artifact_durability/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kraphtea.artifact_durability.ArtifactDurabilityMod"
+    ],
+    "client": [
+      "com.kraphtea.artifact_durability.client.ArtifactDurabilityClient"
+    ],
+    "cardinal-components": [
+      "com.kraphtea.artifact_durability.component.DurabilityComponents"
+    ]
+  },
+  "mixins": [
+    "artifact_durability.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=17",
+    "fabric-api": "*",
+    "trinkets": ">=3.7.0",
+    "cardinal-components-api": ">=5.2.0"
+  },
+  "suggests": {
+    "cloth-config": ">=11.0.0",
+    "modmenu": "*"
+  }
+}

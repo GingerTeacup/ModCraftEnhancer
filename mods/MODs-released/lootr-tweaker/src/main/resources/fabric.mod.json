@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "lootr_tweaker",
+  "version": "${version}",
+  "name": "LootrTweaker",
+  "description": "Modifie le comportement du mod Lootr pour ajouter des emplacements vides et configurer les poids des objets",
+  "authors": [
+    "Kraphtea"
+  ],
+  "contact": {
+    "homepage": "https://github.com/GingerTeacup/kraphtea-mods",
+    "issues": "https://github.com/GingerTeacup/kraphtea-mods/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/lootr_tweaker/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.kraphtea.lootr_tweaker.LootrTweaker"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": ">=0.83.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "lootr": ">=0.7.30"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
